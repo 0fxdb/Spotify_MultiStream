@@ -19,3 +19,14 @@ O Spotify Checker verifica as contas de Spotify contidas no arquivo fornecido.
 
 ```bash
 spotify_checker.exe $filename $threads
+
+````
+
+### Spotify Multi Stream
+
+O Spotify Multi Stream strema uma mesma música em todas as contas contidas no arquivo fornecido utilizando multithreading.
+
+#### Para executar:
+
+```bash
+multi_stream.exe $filename $threads $link
